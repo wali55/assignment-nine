@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Best Laptop Deals
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Site [https://assignment-nine-wali.netlify.app/](https://assignment-nine-wali.netlify.app/).
 
 ## Available Scripts
 
