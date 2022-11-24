@@ -52,10 +52,10 @@ const Dashboard = () => {
         Build <span className="text-orange-400">Charts</span> with React
         Component
       </h1>
-      <div>
+      <div className="grid md:grid-cols-2 gap-7 my-14 mx-44">
         <div>
           <LineChart width={400} height={400} data={data}>
-            <Line type="monotone" dataKey="sell"  stroke="#8884d8"></Line>
+            <Line type="monotone" dataKey="sell"  stroke="#F49D1A"></Line>
             <XAxis dataKey="month"></XAxis>
             <YAxis dataKey="sell"></YAxis>
             <Tooltip></Tooltip>
@@ -64,7 +64,7 @@ const Dashboard = () => {
         </div>
         <div>
             <AreaChart width={400} height={400} data={data}>
-                <Area type="monotone" dataKey="investment" stroke="#8884d8" fill="#8884d8">
+                <Area type="monotone" dataKey="investment" stroke="#F49D1A" fill="#FFFEB7">
                 </Area>
                 <XAxis dataKey="month"></XAxis>
                 <YAxis dataKey="investment"></YAxis>
@@ -74,7 +74,7 @@ const Dashboard = () => {
         </div>
         <div>
             <BarChart width={400} height={400} data={data}>
-                <Bar dataKey="revenue" fill="#8884d8"></Bar>
+                <Bar dataKey="revenue" fill="#F49D1A"></Bar>
                 <XAxis dataKey="month"></XAxis>
                 <YAxis dataKey="revenue"></YAxis>
                 <Tooltip></Tooltip>
@@ -83,7 +83,7 @@ const Dashboard = () => {
         </div>
         <div>
             <ScatterChart width={400} height={400}>
-                <Scatter data={data} fill="#8884d8"></Scatter>
+                <Scatter data={data} fill="#F49D1A"></Scatter>
                 <XAxis dataKey="month"></XAxis>
                 <YAxis dataKey="sell"></YAxis>
                 <Tooltip></Tooltip>
